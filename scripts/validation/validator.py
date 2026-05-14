@@ -105,7 +105,7 @@ def validate_performance(df):
         "quiz_score",
         "exam_score",
         "total_score",
-        "results",
+        "result",
         "study_hours",
         "teacher_comment"
     }
