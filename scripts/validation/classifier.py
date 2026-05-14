@@ -9,7 +9,7 @@ def classify_dataset(df):
     performance_columns = {
         'record_id', 'student_id', 'student_name', 'class', 'gender', 'term', 'subject', 
         'attendance_percent', 'assignment_score', 'quiz_score', 
-        'exam_score', 'total_score', 'results', 'study_hours', 'teacher_comment'
+        'exam_score', 'total_score', 'result', 'study_hours', 'teacher_comment'
     }
     attendance_columns = {
         'attendance_id', 'student_id', 'student_name', 'class', 'term', 'days_present', 'days_absent', 
